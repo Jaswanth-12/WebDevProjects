@@ -1,0 +1,23 @@
+.row {
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+}
+
+#btn {
+    width: 300px;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.col-3 {
+    width: 360px;
+    min-height: 680px;
+    text-align: center;
+    border-right: 1px solid black;
+}
+
+.col-3:last-child {
+    border: none;
+}
